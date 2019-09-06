@@ -1,0 +1,46 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s ease-in-out;
+}
+
+body{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Slider*/
+
+.slider-wrapper{
+    width: 960px;
+    height: 640px;
+    overflow: hidden;  
+}
+
+.gallery{
+    width: 10560px;
+    height: 540px;
+    display: block;
+}
+
+.slider-image{
+    list-style: none;
+    display: inline-block;
+}
+
+.slider-image>img{
+    width: 960px;
+    height: 540px;
+    border-radius: 10px;
+}
+
+.slider-control{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
